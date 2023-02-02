@@ -1,0 +1,89 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    padding: 0;
+    height: 10vh;
+}
+
+.navbar-main-box
+{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 20px;
+    justify-content: center;
+}
+
+.navbar-logo
+{
+    height:5vh !important;
+    display: flex;
+    /* border: 2px solid wheat; */
+    flex-direction: column;
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: white;
+}
+.navbar-logo div
+{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-logo div p{
+        margin-left: 0.2rem;
+        color: gold;
+}
+.navbar-main-box img{
+    margin-right: 1rem;
+    color: white;
+    outline: none;
+    width: 5rem;
+
+}
+
+.navbar-search
+{
+    margin-right: 2rem;
+}
+.navbar-main-box form input
+{
+    padding: 0.4rem 1rem;
+    width: 30rem;
+    height: 2.5rem;
+    outline: none;
+}
+
+.navbar-login
+{
+    margin: 0 2rem;
+    background-color: white;
+    padding: 0.4rem 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.navbar-more
+{
+    color: white;
+    margin: 0 1rem;
+}
+
+.navbar-seller
+{
+    color: white;
+    margin-right: 1rem;
+    /* font-weight: 900 !important; */
+}
+
+.navbar-cart
+{
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+}
